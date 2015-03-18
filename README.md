@@ -23,5 +23,13 @@ wuff {
 }
 ```
 
-After checkouting or scaffolding the project simply run: `gradlew run`
+After checkouting or scaffolding the project simply run: `gradlew run`. To generate an executable `*.bat` run the `gradlew build` command. The `*.bat` will be generated in `wuff-skeleton\build\output\pl.cmil.wuff.skeleton-...` directory.
+
+Remember to set a constant name for the root project in `settings.gradle`, e.g.:
+```
+rootProject.name='pl.cmil.wuff.skeleton'
+```
+Without it, the project may not start when moved to another directory.
+
+  
 
