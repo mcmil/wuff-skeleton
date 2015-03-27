@@ -11,6 +11,8 @@ Checkout the project (or download and extract the [zip](https://github.com/mcmil
 To generate an executable `*.bat` run the `gradlew build` command. The `*.bat` will be generated in `wuff-skeleton\build\output\pl.cmil.wuff.skeleton-...` directory.
 
 ##From scratch
+This approach is only valid if you already have gradle or a gradle wrapper. 
+
 The scaffolding code in this repository can be generated from this `build.gradle` file:
 
 ```gradle
@@ -39,7 +41,7 @@ rootProject.name='pl.cmil.wuff.skeleton'
 ```
 Without it, the project may not start when moved to another directory.
 
-After those files are created, run  `gradlew scaffold` in the same directory. I twil create an `Application.e4xmi` file, standard maven-like directory structure an a `plugin.xml`. At this point you can simply run `gradlew scaffold`
+After those files are created, run  `gradle scaffold` in the same directory. I twil create an `Application.e4xmi` file, standard maven-like directory structure an a `plugin.xml`. At this point you can simply run `gradle run`
 
 ##Notes
 
