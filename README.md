@@ -1,5 +1,5 @@
 # wuff-skeleton
-This project is a skeleton for an application based on e(fx)clipse. Currently this sample is running on an experimental [e(fx)clipse branhch in Wuff] (https://github.com/mcmil/wuff/tree/efxclipse). 
+This project is a skeleton for an application based on e(fx)clipse. Currently this sample is running on an experimental [e(fx)clipse branch in Wuff] (https://github.com/mcmil/wuff/tree/efxclipse). 
 
 Please note that the sample works on  Linux and Windows machines only. Java 8 is required.
 
