@@ -49,5 +49,4 @@ There is a known issue with cleaning the project - the build is cleared but an e
 
 The sample can be imported to any IDE - Eclipse, IntelliJ Idea or you can stick to VIM if you like.
 
-  
-
+For IntelliJ Idea users, there is a plugin which boosts the development process: https://github.com/mcmil/wuff-intellij-plugin
