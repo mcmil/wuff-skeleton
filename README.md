@@ -24,14 +24,13 @@ buildscript {
     }
 
     dependencies {
-        classpath 'org.akhikhl.wuff:wuff-plugin:0.0.13-efxclipse-alpha2'
+        classpath 'org.akhikhl.wuff:wuff-plugin:0.0.13-efxclipse-alpha3'
     }
 }
 
 apply plugin: 'org.akhikhl.wuff.efxclipse-app'
 
 wuff {
-    filterManifest = true
     selectedEclipseVersion = 'efxclipse-1.2'
 }
 ```
