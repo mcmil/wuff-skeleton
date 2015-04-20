@@ -1,18 +1,18 @@
 buildscript {
-    repositories {
-		jcenter()
-		maven { url 'http://dl.bintray.com/mcmil/maven' }
-		maven { url 'http://oss.jfrog.org/artifactory/oss-snapshot-local' }
-    }
+  repositories {
+    jcenter()
+    maven { url 'http://dl.bintray.com/mcmil/maven' }
+    maven { url 'http://oss.jfrog.org/artifactory/oss-snapshot-local' }
+  }
 
-    dependencies {
-        classpath 'org.akhikhl.wuff:wuff-plugin:0.0.13-efxclipse-alpha3'
-    }
+  dependencies {
+    classpath 'org.akhikhl.wuff:wuff-plugin:0.0.14-efxclipse-alpha4'
+  }
 }
 
 apply plugin: 'org.akhikhl.wuff.efxclipse-app'
 
 wuff {
-    selectedEclipseVersion = 'efxclipse-1.2'
+  selectedEclipseVersion = 'efxclipse-1.2'
 }
 
