@@ -26,7 +26,7 @@ buildscript {
     }
 
     dependencies {
-        classpath 'org.akhikhl.wuff:wuff-plugin:0.0.13-efxclipse-alpha3'
+        classpath 'org.akhikhl.wuff:wuff-plugin:0.0.14-efxclipse-alpha4'
     }
 }
 
