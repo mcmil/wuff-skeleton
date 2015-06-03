@@ -1,7 +1,7 @@
 # wuff-skeleton
 [![Build Status](https://travis-ci.org/mcmil/wuff-skeleton.svg)](https://travis-ci.org/mcmil/wuff-skeleton)
 
-This project is a skeleton for an application based on e(fx)clipse. Currently this sample is running on an experimental [e(fx)clipse branch in Wuff] (https://github.com/mcmil/wuff/tree/efxclipse). 
+This project is a skeleton for an application based on e(fx)clipse. The build process is handled by Gradle and  [Wuff](https://github.com/akhikhl/wuff) 
 
 Please note that the sample works on  Linux and Windows machines only. Java 8 is required.
 
@@ -26,7 +26,7 @@ buildscript {
     }
 
     dependencies {
-        classpath 'org.akhikhl.wuff:wuff-plugin:0.0.14-efxclipse-alpha4'
+        classpath 'org.akhikhl.wuff:wuff-plugin:0.0.14'
     }
 }
 
@@ -34,6 +34,10 @@ apply plugin: 'org.akhikhl.wuff.efxclipse-app'
 
 wuff {
     selectedEclipseVersion = 'efxclipse-1.2'
+}
+
+products {
+  nativeLauncher = false
 }
 ```
 Remember to set a constant name for the root project in `settings.gradle`, e.g.:
