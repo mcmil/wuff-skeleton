@@ -6,7 +6,7 @@ buildscript {
   }
 
   dependencies {
-    classpath 'org.akhikhl.wuff:wuff-plugin:0.0.14-efxclipse-alpha4'
+    classpath 'org.akhikhl.wuff:wuff-plugin:0.0.14'
   }
 }
 
@@ -14,5 +14,9 @@ apply plugin: 'org.akhikhl.wuff.efxclipse-app'
 
 wuff {
   selectedEclipseVersion = 'efxclipse-1.2'
+}
+
+products {
+  nativeLauncher = false
 }
 
