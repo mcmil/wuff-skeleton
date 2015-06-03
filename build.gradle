@@ -1,8 +1,6 @@
 buildscript {
   repositories {
     jcenter()
-    maven { url 'http://dl.bintray.com/mcmil/maven' }
-    maven { url 'http://oss.jfrog.org/artifactory/oss-snapshot-local' }
   }
 
   dependencies {
